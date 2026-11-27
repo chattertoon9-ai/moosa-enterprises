@@ -9,7 +9,7 @@
 <title>M/s Moosa Enterprises — Supply You Since 2020</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body class="loading">
@@ -50,19 +50,61 @@
     </nav>
   </div>
 </header>
-<section class="hero" id="home">
-  <div class="wrap">
-    <div class="hero-in">
-      <span class="hero-badge">Supply You Since 2020</span>
-      <h1>M/s Moosa <span class="accent">Enterprises</span></h1>
-      <p class="hero-sub">Construction, contracting, manpower supply and general order supplies — delivered with the quality, safety and punctuality our clients depend on.</p>
-      <div class="hero-actions">
-        <a class="btn btn-sky" href="services.html">Our Services</a>
-        <a class="btn btn-outline" href="contact.html">Contact Us</a>
+
+<!-- ================= Carousel slider (3 slides) ================= -->
+<section class="carousel" id="heroCarousel" aria-roledescription="carousel" aria-label="Moosa Enterprises highlights">
+  <div class="carousel-track">
+    <div class="carousel-slide active">
+      <img class="carousel-bg" src="images/hero-bg.jpg" alt="" aria-hidden="true" />
+      <div class="wrap carousel-in">
+        <span class="hero-badge">Supply You Since 2020</span>
+        <h1>M/s Moosa <span class="accent">Enterprises</span></h1>
+        <p class="hero-sub">Construction, contracting, manpower supply and general order supplies — delivered with the quality, safety and punctuality our clients depend on.</p>
+        <div class="hero-actions">
+          <a class="btn btn-sky" href="services.html">Our Services</a>
+          <a class="btn btn-outline" href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img class="carousel-bg" src="images/fly-ash-banner.jpg" alt="" aria-hidden="true" />
+      <div class="wrap carousel-in">
+        <span class="hero-badge">Featured Project</span>
+        <h2>Fly-Ash Project — <span class="accent">China Power Plant Port Qasim</span></h2>
+        <p class="hero-sub">Fly-ash work by M/s Moosa Enterprises at China Power Plant Port Qasim. Watch the work on site in the project videos and photos.</p>
+        <div class="hero-actions">
+          <a class="btn btn-sky" href="projects.html">View Project</a>
+          <a class="btn btn-outline" href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img class="carousel-bg" src="images/about-plant.jpg" alt="" aria-hidden="true" />
+      <div class="wrap carousel-in">
+        <span class="hero-badge">Recognition</span>
+        <h2>3 Million Safe Man-Hours — <span class="accent">K-Electric 900 MW Project</span></h2>
+        <p class="hero-sub">Certificate of Appreciation awarded to M/s Moosa Enterprises for the achievement of 3 Million Safe Man-Hours without LTI at the K-Electric 900 MW Combined Cycle Power Project, Port Qasim, Karachi, Pakistan.</p>
+        <div class="hero-actions">
+          <a class="btn btn-sky" href="about.html">About Us</a>
+          <a class="btn btn-outline" href="contact.html">Contact Us</a>
+        </div>
       </div>
     </div>
   </div>
-</section><!-- ================= Fact strip ================= -->
+  <button class="carousel-arrow prev" type="button" data-carousel-prev aria-label="Previous slide">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+  <button class="carousel-arrow next" type="button" data-carousel-next aria-label="Next slide">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+  </button>
+  <div class="carousel-dots" role="tablist" aria-label="Choose slide">
+    <button class="carousel-dot active" type="button" data-carousel-dot="0" aria-label="Go to slide 1" aria-current="true"></button>
+    <button class="carousel-dot" type="button" data-carousel-dot="1" aria-label="Go to slide 2" aria-current="false"></button>
+    <button class="carousel-dot" type="button" data-carousel-dot="2" aria-label="Go to slide 3" aria-current="false"></button>
+  </div>
+</section>
+
+<!-- ================= Fact strip ================= -->
 <div class="facts" aria-label="Company facts">
   <div class="wrap">
     <div class="facts-in">
@@ -80,22 +122,271 @@
       </div>
     </div>
   </div>
-</div><section class="section" id="intro">
+</div>
+
+<!-- ================= About Us ================= -->
+<section class="section" id="about">
   <div class="wrap">
-    <p><strong>M/s Moosa Enterprises</strong> was established in <strong>2020</strong> by <strong>Mr. Arbab Ali</strong>, Chief Executive. The company is owned and managed by a team of well experienced professionals dealing in construction contracts, manpower supply and general order supplies.</p>
-    <p><a class="btn btn-sky" href="about.html">Read more about us</a></p>
+    <div class="about-grid">
+      <div class="about-copy">
+        <div class="section-head" style="margin-bottom:20px">
+          <span class="kicker">About Us</span>
+          <h2>Introduction</h2>
+          <div class="rule"></div>
+        </div>
+        <p><strong>M/s Moosa Enterprises</strong> was established in <strong>2020</strong> by <strong>Mr. Arbab Ali</strong>, Chief Executive — construction contracts, manpower supply and general order supplies, delivered to international standards, on time.</p>
+        <p style="margin-top:22px"><a class="btn btn-sky" href="about.html">Read more about us</a></p>
+      </div>
+      <div class="about-photo">
+        <img src="images/about-plant.jpg" alt="Industrial plant served by Moosa Enterprises mechanical and piping teams" />
+      </div>
+    </div>
   </div>
 </section>
+
+
+<!-- ================= Services ================= -->
+<section class="section section-alt" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">What We Do</span>
+      <h2>Our Services</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="svc-carousel" id="svcCarousel" aria-roledescription="carousel" aria-label="Our services">
+      <div class="svc-viewport">
+        <div class="svc-track photo-grid svc-grid">
+      <figure>
+        <a class="svc-card-link" href="services.html#service-01">
+          <img src="images/about-plant.jpg" alt="Mechanical Engineering, Piping & Structure Maintenance" />
+          <figcaption>
+            <h3>Mechanical Engineering, Piping &amp; Structure Maintenance</h3>
+          </figcaption>
+        </a>
+      </figure>
+      <figure>
+        <a class="svc-card-link" href="services.html#service-02">
+          <img src="images/service-civil-construction.jpg" alt="Civil Construction" />
+          <figcaption>
+            <h3>Civil Construction</h3>
+          </figcaption>
+        </a>
+      </figure>
+      <figure>
+        <a class="svc-card-link" href="services.html#service-03">
+          <img src="images/service-road-construction.jpg" alt="Road Construction" />
+          <figcaption>
+            <h3>Road Construction</h3>
+          </figcaption>
+        </a>
+      </figure>
+      <figure>
+        <a class="svc-card-link" href="services.html#service-04">
+          <img src="images/service-concrete-blocks.jpg" alt="Solid Concrete Blocks" />
+          <figcaption>
+            <h3>Solid Concrete Blocks</h3>
+          </figcaption>
+        </a>
+      </figure>
+      <figure>
+        <a class="svc-card-link" href="services.html#service-05">
+          <img src="images/service-scrap.jpg" alt="Wood Scrap & Iron Scrap" />
+          <figcaption>
+            <h3>Wood Scrap &amp; Iron Scrap</h3>
+          </figcaption>
+        </a>
+      </figure>
+      <figure>
+        <a class="svc-card-link" href="services.html#service-06">
+          <img src="images/service-garbage-collection.jpg" alt="Garbage Collection" />
+          <figcaption>
+            <h3>Garbage Collection</h3>
+          </figcaption>
+        </a>
+      </figure>
+      <figure>
+        <a class="svc-card-link" href="services.html#service-07">
+          <img src="images/service-general-items.jpg" alt="General Items Supply" />
+          <figcaption>
+            <h3>General Items Supply</h3>
+          </figcaption>
+        </a>
+      </figure>
+      <figure>
+        <a class="svc-card-link" href="services.html#service-08">
+          <img src="images/service-fly-ash.jpg" alt="Fly-ash, Gypsum & Bolter" />
+          <figcaption>
+            <h3>Fly-ash, Gypsum &amp; Bolter</h3>
+          </figcaption>
+        </a>
+      </figure>
+        </div>
+        <button class="svc-arrow prev" type="button" data-svc-prev aria-label="Previous services">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="svc-arrow next" type="button" data-svc-next aria-label="Next services">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <div class="svc-dots" role="tablist" aria-label="Choose services page"></div>
+    </div>
+    <div class="section-cta">
+      <a class="btn btn-gold" href="services.html">Explore more
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Quality / Mission / Vision / Values ================= -->
+<section class="section" id="quality">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Quality &amp; QHSE</span>
+      <h2>Quality, Mission &amp; Vision</h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="qm-grid">
+      <div class="qm-card">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#29abe2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.2 2.4 2.4 4.6-5"/></svg>
+          Quality Policy
+        </h3>
+        <p>“Meet and exceed specified engineering standards, complete within allotted time, comply with safety requirements and satisfy customer's needs.”</p>
+      </div>
+      <div class="qm-card">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#29abe2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="#29abe2"/></svg>
+          Our Mission
+        </h3>
+        <p>Provide active, value-added services to customers without compromising on quality.</p>
+        <p>Offer work with high quality, like international standards, within the given timeline.</p>
+      </div>
+      <div class="qm-card">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#29abe2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>
+          Our Vision
+        </h3>
+        <p>“A global leader in the construction industry, recognized and valued for its uncompromised commitment to integrity, quality, and client satisfaction.”</p>
+        <p>A dedicated team helping clients make their dreams become a reality.</p>
+      </div>
+    </div>
+
+    <div class="values-card">
+      <h3>Our Values</h3>
+      <ul class="values-list">
+        <li>Punctuality</li>
+        <li>Commitment with Job</li>
+        <li>Honesty</li>
+        <li>Trust</li>
+        <li>Courage</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Projects ================= -->
+<section class="section section-alt" id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Project Work</span>
+      <h2>Our Projects</h2>
+      <div class="rule"></div>
+    </div>
+
+    <h3 class="proj-title">Fly-Ash Project — China Power Plant Port Qasim</h3>
+    <p class="proj-desc">Fly-ash work by M/s Moosa Enterprises at China Power Plant Port Qasim. Watch the work on site in the videos below, followed by photos from the project.</p>
+
+    <div class="photo-grid">
+      <figure>
+        <img src="images/fly-ash-project.jpg" alt="Fly-ash work at China Power Plant Port Qasim — project photo 1" loading="lazy" />
+      </figure>
+      <figure>
+        <img src="images/project-photo-2.jpg" alt="Fly-ash work at China Power Plant Port Qasim — project photo 2" loading="lazy" />
+      </figure>
+      <figure>
+        <img src="images/project-photo-3.jpg" alt="Fly-ash work at China Power Plant Port Qasim — project photo 3" loading="lazy" />
+      </figure>
+    </div>
+
+    <div class="section-cta">
+      <a class="btn btn-sky" href="projects.html">View All Projects
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Awards ================= -->
+<section class="section section-alt" id="awards" style="background:#e9eff5">
+  <div class="wrap">
+    <div class="rec-grid">
+      <div class="rec-photo">
+        <img src="images/certificate-k-electric.jpg" alt="Certificate of Appreciation awarded to Moosa Enterprises for 3 Million Safe Man-Hours without LTI at the K-Electric 900 MW Combined Cycle Power Project, Port Qasim, Karachi" />
+      </div>
+      <div class="rec-copy">
+        <span class="kicker">Recognition</span>
+        <div class="big">3 Million Safe Man-Hours <em>Without LTI</em></div>
+        <p><strong>Certificate of Appreciation</strong> awarded to M/s Moosa Enterprises for the achievement of <strong>3 Million Safe Man-Hours without LTI</strong> at the <strong>K-Electric 900 MW Combined Cycle Power Project</strong>, Port Qasim, Karachi, Pakistan.</p>
+        <p>Safety is not a milestone we passed once — it is the standard behind our quality policy on every project we take on.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Our Valuable Clients ================= -->
+<section class="section section-alt" id="clients">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="kicker">Our Clients</span>
+      <h2>Our Valuable Clients</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="clients-grid">
+      <div class="client-card">
+        <img src="images/client-barkat-frisian.png" alt="Barkat Frisian logo" />
+        <div class="client-name">Barkat Frisian</div>
+      </div>
+      <div class="client-card">
+        <img src="images/client-k-electric.png" alt="K-Electric logo" />
+        <div class="client-name">K-Electric</div>
+      </div>
+      <div class="client-card">
+        <img src="images/client-metrowind.png" alt="MetroWind logo" />
+        <div class="client-name">MetroWind</div>
+      </div>
+      <div class="client-card">
+        <img src="images/client-ffbl.png" alt="FFBL Power Company Limited logo" />
+        <div class="client-name">FFBL Power Company Limited</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer>
   <div class="footer-in">
-    <div class="footer-brand">
+    <div class="footer-col footer-brand">
       <img class="f-logo" src="images/logo-me-3d.png" alt="Moosa Enterprises logo" />
       <div>
         <div class="f-name">M/s Moosa Enterprises</div>
         <div class="f-tag">Supply You Since 2020</div>
       </div>
     </div>
-    <div class="footer-contact">
+    <div class="footer-col footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-contact">
+      <h3>Contact</h3>
+      <address>C-27, Gulistan e Faisal, Near National Highway, Bin Qasim, Malir, Karachi, Sindh, Pakistan</address>
+      <div class="f-ntn">NTN: 4004746-9</div>
       <a href="tel:+923091298355">+92-309-1298355</a>
       <a href="mailto:moosaco062@gmail.com">moosaco062@gmail.com</a>
     </div>
